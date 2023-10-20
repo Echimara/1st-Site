@@ -1,0 +1,148 @@
+<!--Author: Chimara Okeke-->
+<!--Date: 9/22/2023-->
+<!--Class: CSCE3220 - Human Computer Interfaces-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap"> <!--for fonts-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online Portfolio</title>
+  </head>
+
+    <body>
+        <div class="site-container">
+          <h1>Welcome to My Portfolio 🌼</h1>
+            <div>
+            <h4>About Me</h4><br>
+            <p>Greetings,<br>
+            My name is <strong>Chimara Okeke</strong>, first name pronounced as <em>tchi-maa-raa</em>. I was raised by two amazing, selfless, parents in Enfield, London. When I came of age, I was sent to school in my home country 
+            for cultural immersion. School there was unique, to say the least. Students were prohibited from owning devices: phones, Nintendos, or laptops; 
+            you name it. All we had were the computers provided by the school. This digital drought left me yearning to learn more about technology. With each
+             passing school year, I grew more eager to delve into all the information I had missed out on once I got to college.  Granted, my time at secondary 
+             school was beautiful and introspective. I had made true friends, sweet memories, and a better understanding of myself. <br><br>
+             Once I began college, I researched to find the most fitting major to quench my technological curiosity. I settled upon Information Technology. 
+             The field of IT is boundless and difficult to tame if you do not narrow down your interests. As such, I searched within myself for virtues I hold dear.
+              I discovered the following: design, communication, relationships, collaboration, problem-solving, and creativity. By far, I found IT consulting to be 
+              the best fit for my bevy of virtues. Much like technology, people's interests morph. I may not feel as ecstatic about IT consulting in three years as I
+               do now, but I choose to live in the present. And the present "me" is all about IT consulting!</p>
+            </div>
+            
+            <div>
+                <h4>Portfolio Gallery: My Favorite Books</h4><br>
+            <table>
+                <thead>
+                <tr>
+                    <th>Book Title</th>
+                    <th>Author</th>
+                    <th>Publication Year</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td><em>Things Fall Apart</em></td>
+                    <td>Chinua Achebe</td>
+                    <td>1958</td>
+                    </tr>
+                    <tr>
+                        <td><em>Dopamine Nation</em></td>
+                        <td>Anna Lemke</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>
+                        <td><em>The Handmaid's Tale</em></td>
+                        <td>Margaret Atwood</td>
+                        <td>1985</td>
+                    </tr>
+                    </tbody>
+            </table>
+            </div>
+            
+
+            <h4>Photoshopped Image:</h4><br>  
+            <div class="photoshop">
+                <figure>
+                    <figcaption>Before</figcaption>
+                    <img src='../Media/original_image.jpg' alt="Before">
+                </figure>
+                <figure>
+                    <figcaption>After</figcaption>
+                    <img src='../Media/photoshopped_image.jpg' alt="After">
+                </figure>
+            </div>            
+
+          <div class="mentions"><br>
+            <h4>Honorable Mentions: Media</h4>
+            <figure>
+                <figcaption>The Post-Banquet Party at Tapia's 2023 Conference</figcaption>
+                <video src="../Media/Taipia2023.mov" controls>
+                    Your browser does not support the video tag.
+                </video>
+            </figure><br>
+            <figure></figure>
+                    <br><figcaption>A Professional Group Trip to Plano's PepsiCo Company Division for Networking</figcaption>
+                    <img src='../Media/Plano-PepsiCo-Trip.jpg' alt="Group Trip">
+                </figure>
+          </div>
+        <h4>Contact Form:</h4><br>
+            <form>
+                <div class="contact-form">
+                    <label for="salutation">Salutation:</label>
+                    <select id="salutation" name="salutation" required>
+                        <option value="--None--">--None--</option>
+                        <option value="Mr.">Mr.</option>
+                        <option value="Mrs.">Mrs.</option>
+                        <option value="Miss">Miss</option>
+                        <option value="Other">Other</option>
+                    </select><br>
+        
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required><br>
+        
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required><br>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+        
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br>
+        
+                    <label for="form-options">Form Type:</label>
+                    <select id="form-options" name="form-options" required>
+                        <option value="Inquiry">Inquiry</option>
+                        <option value="Collaboration">Collaboration</option>
+                        <option value="Feedback">Feedback</option>
+                    </select><br>
+        
+                    <input type="checkbox" id="receive-updates" name="receive-updates" value="Yes">
+                    <label for="receive-updates">I want to receive updates.</label><br>
+        
+                    <br><label>Contact Method:</label><br>
+                    <input type="radio" id="contact-email" name="contact-method" value="Email" required>
+                    <label for="contact-email">Email</label>
+                    <input type="radio" id="contact-phone" name="contact-method" value="Phone" required>
+                    <label for="contact-phone">Phone</label><br>
+        
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+       <br>
+    
+        <div>
+            <h2>Thanks for Visiting! Have a beautiful day👋.</h2>
+        </div>
+
+            <footer>
+                <div class="footer-content">
+                  <a href="https://www.linkedin.com/in/chimara-okeke/" target="_blank">My_LinkedIn</a>
+                  <a href="https://sites.google.com/view/chimara-okeke/" target="_blank">My_Google_Site</a>
+                    &copy; 2023 Chimara Okeke. All rights reserved.
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
