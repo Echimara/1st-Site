@@ -149,6 +149,25 @@
                 </div>
             </footer>
         </div>
+
+        <script>
+        const darkModeStyles = document.getElementById('dark-mode');
+        const toggleDarkModeButton = document.getElementById('toggle-dark-mode');
+        let darkModeEnabled = false;
+
+        // Function to toggle dark mode
+        function toggleDarkMode() {
+            darkModeEnabled = !darkModeEnabled;
+            if (darkModeEnabled) {
+                document.body.classList.add('dark-mode');
+            } else {
+                document.body.classList.remove('dark-mode');
+            }
+        }
+
+        // Add an event listener to the button to toggle dark mode
+        toggleDarkModeButton.addEventListener('click', toggleDarkMode);
+    </script>
     </body>
 </html>
 
