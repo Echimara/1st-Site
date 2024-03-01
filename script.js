@@ -11,19 +11,15 @@
         document.getElementById("myProgressBar").style.width = scrollPercentage + "%";
     }
 
-// Function to toggle dark mode
-        function toggleDarkMode() {
-            darkModeEnabled = !darkModeEnabled;
-            if (darkModeEnabled) {
-                document.body.classList.add('dark-mode');
-            } else {
-                document.body.classList.remove('dark-mode');
-            }
-        }
 
-// Add an event listener to the button to toggle dark mode
-toggleDarkModeButton.addEventListener('click', toggleDarkMode);
+    //light dark things
 
-const darkModeStyles = document.getElementById('dark-mode');
-const toggleDarkModeButton = document.getElementById('toggle-dark-mode');
-let darkModeEnabled = false;
+    // Function to toggle between light and dark mode
+    function toggleMode() {
+        document.body.classList.toggle('dark-mode');
+        alert('So you actually clicked it...'); // Display an alert message
+    }
+    
+
+// Event listener for mode toggle button
+document.getElementById('modeToggle').addEventListener('click', toggleMode);

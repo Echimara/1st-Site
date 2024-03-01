@@ -216,6 +216,15 @@ button[type="submit"]:hover {
 }
 
 
+/* toggle*/
+
+#modeToggle {
+  font-family: "Lekton", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  display: inline-block;
+  font-size: 17px; /* Change the font size */
+}
 
 /* GOOGLE FONT CODE */
 .lekton-regular {

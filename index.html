@@ -4,6 +4,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--DARK/light mode?-->
+    <style>
+        body {
+            background-color: #f0f0f0; /* Default light mode background color */
+            color: #333; /* Default light mode text color */
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Dark mode styles */
+        body.dark-mode {
+            background-color: #333; /* Dark mode background color */
+            color: lightyellow; /* Dark mode text color */
+        }
+    </style>
+
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap"> <!--for fonts-->
@@ -28,7 +43,7 @@
         <div class="site-container">
           <h1>⚜ Welcome to My Portfolio ⚜</h1>
             <div>
-            <h4>About Me</h4><br>
+            <h4>About Me</h4>
             <p><br>
                 In Enfield (London) years ago, two selfless and awesome parents raised me. Years later, I left for high school in my home country because my parents hoped to immerse me in the culture. To say the least, the experience was unique. Students were prohibited from owning any devices: phones, laptops, and even Nintendos. You name it, we didn't have it. This was to curb distraction. Our school did, however, provide us with computers. The digital drought left me yearning to learn more about technology. I was even more eager to delve into computer science with each passing year.  Granted, my time at secondary school was beautiful and introspective. I had made true friends, sweet memories, and a better understanding of myself. <br><br>
 
@@ -135,7 +150,12 @@
                 </div>
             </form>
        <br>
-    
+
+    <!--LIGHT/dark toggle: turns out it didn't work as expected, so I revamped the purpose-->
+    <button id="modeToggle">Wanna make some words disappear? Click me</button>
+
+    <script src="script.js"></script>
+
         <div>
             <h3>Thanks for Visiting! Have a beautiful day ♡</h3>
         </div>              
