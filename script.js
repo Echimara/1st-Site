@@ -1,3 +1,4 @@
+// Author: Chi
 // Add this script to the end of your HTML, just before the closing </body> tag.
 
     window.onscroll = function() {
