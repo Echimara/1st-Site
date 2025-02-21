@@ -1,4 +1,7 @@
-<h2 align="center" width="1200px"> Screen Grab </h2> 
+<h2 align="center" width="1200px"> The Gist </h2> 
+  
+  
+  <h2 align="center" width="1200px"> The Screen Grab </h2> 
 <img src="https://github.com/Echimara/Humble-Beginnings/blob/main/Screenshot%20(761).png" alt="Screenshot" width="1500"/> 
 <br>
 
